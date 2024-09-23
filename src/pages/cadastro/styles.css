@@ -1,0 +1,39 @@
+.containerCadastro {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.containerCadastroSelectfirst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 34px;
+    width: 100%;
+    max-width: 392px;
+    box-sizing: border-box;
+}
+.tittleInput {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
+}
+.text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #2D3648;
+    width: 190px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+    .containerCadastroSelectfirst {
+        padding: 0 10px;
+    }
+}

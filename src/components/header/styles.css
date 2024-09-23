@@ -1,0 +1,45 @@
+.bgHeader {
+    background-color: #BCB8AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.limiterHeader,
+.limiterHeaderLogin {
+    width: 100%;
+    max-width: 1254px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+.limiterHeaderLogin {
+    justify-content: center;
+}
+.limiterHeader {
+    justify-content: space-between;
+}
+
+.titleLogin {
+    font-weight: bold;
+    font-size: 36px;
+    color: #2D3648;
+}
+
+.titleUser {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2D3648;
+}
+
+@media (max-width: 1024px) {
+    .limiterHeader {
+        padding: 0 10px;
+    }
+    .titleLogin {
+        font-size: 20px;
+    }
+}

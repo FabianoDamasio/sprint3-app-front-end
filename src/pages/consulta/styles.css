@@ -1,0 +1,59 @@
+.containerConsulta {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.containerConsultaSelectfirst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 34px;
+    width: 100%;
+    max-width: 1254px;
+    column-gap: 20px;
+}
+
+.containerConsultaResults {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    max-width: 392px;
+    margin-bottom: 50px;
+    row-gap: 20px;
+    max-width: 1254px;
+}
+.tittleInput {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 14px;
+}
+.text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #2D3648;
+    width: 190px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+    .containerConsulta {
+        overflow: scroll;
+    }
+    .containerConsultaSelectfirst {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .containerConsultaSelectfirst,
+    .containerConsultaResults  {
+        width: calc(100% - 20px);
+    }
+}

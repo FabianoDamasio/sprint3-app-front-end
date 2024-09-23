@@ -1,0 +1,33 @@
+.bgFooter {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.limiterFooter {
+    width: 100%;
+    max-width: 1254px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+
+.textFooter {
+    font-weight: normal;
+    font-size: 18px;
+    color: #6F6C90;
+}
+
+@media (max-width: 1024px) {
+    .limiterFooter {
+        padding: 0 10px;
+    }
+    .textFooter {
+        font-size: 13px;
+        text-align: end;
+    }
+}
